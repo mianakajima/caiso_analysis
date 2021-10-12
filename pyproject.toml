@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Mia Nakajima <MNakajima@TRCcompanies.com>"]
 
+[[tool.poetry.packages]]
+include = "src/oasis_api"
+
 [tool.poetry.dependencies]
 python = "^3.9"
 jupyter = "^1.0.0"
